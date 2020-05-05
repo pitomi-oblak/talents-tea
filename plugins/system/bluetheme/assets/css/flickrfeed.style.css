@@ -1,0 +1,208 @@
+.st-flickr-center {
+    margin: 0 auto;
+}
+.st-flickr-right {
+    float: right;
+}
+.st-flickr-left {
+    float: left;
+}
+
+.thumbs { 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+}
+.thumbs li { 
+    list-style: none; 
+    background: #eee; 
+    width: auto;
+    display: inline-block;
+}
+.thumbs li img { display: block; }
+.thumbs li a img { border: none;}
+.st-flickr {
+    
+}
+.st-flickr h3, .st-flickr h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    display:block;
+}
+
+#cycle { 
+    margin: 0;          
+    padding: 0;                
+    height: auto;         
+    padding: 3px;  
+    text-align: center;
+}
+#cycle > div { 
+    position: relative; 
+    margin: 0; 
+    padding: 3px; 
+    overflow: hidden; 
+}
+#cycle > div > img {
+    border-radius: 3px;
+}
+#cycle > div > div { 
+    position: absolute; 
+    bottom: 3px; 
+    left: 3px; 
+    padding: 3px; 
+    width: 100%;
+    background: black; 
+    color: white; 
+    font-size: 12px; 
+    opacity: .8; 
+}
+
+
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:999999999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:url(images/overlay.png) repeat 0 0;}
+#colorbox{outline:0;}
+    #cboxContent{background:#fff; overflow:hidden;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:28px;}
+        #cboxTitle{display:none;}
+        #cboxCurrent{display:none;}
+        #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:visited, #cboxNext:visited, #cboxSlideshow:visited, #cboxClose:visited {outline:0 !important;}
+        #cboxPrevious:focus, #cboxNext:focus, #cboxSlideshow:focus, #cboxClose:focus {outline:0 !important;}
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0 !important;}
+        #cboxPrevious:hover, #cboxNext:hover, #cboxSlideshow:hover, #cboxClose:hover {outline:0 !important;}
+
+        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cboxPrevious{position:absolute; top:50%; left:17px; background:url(images/prjct-prev.png) no-repeat; width:59px; height:65px; text-indent:-9999px;}
+        #cboxPrevious:hover{}
+        #cboxNext{position:absolute; top:50%; right:17px; background:url(images/prjct-next.png) no-repeat; width:59px; height:65px; text-indent:-9999px;}
+        #cboxNext:hover{}
+        #cboxClose{position:absolute; top:10px; left:50%; margin-left:-16px; background:url(images/prjct-close.png) no-repeat; width:36px; height:36px; text-indent:-9999px;}
+        #cboxClose:hover{}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+.st-flickr h3, .st-flickr h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    display:block;
+}
+.clear-both:after {
+    clear: both;  
+}
+.clear-both:after,
+.clear-both:before {
+    display: table;
+    content: '';
+    line-height: 0;
+}
+#cbox li {
+    display: inline-block;
+}
+
+.flickr-list-wrapper {
+    width: 100%;
+}
+.col-fl-1 {
+    width: 100%;
+}
+.col-fl-2 {
+    width: 50%;
+}
+.col-fl-3 {
+    width: 33.33333%;
+}
+.col-fl-4 {
+    width: 25%;
+}
+.col-fl-5 {
+    width: 20%;
+}
+.col-fl-6 {
+    width: 16.66667%;
+}
+.col-fl-7 {
+    width: 14.28571%;
+}
+.col-fl-8 {
+    width: 12.5%;
+}
+.col-fl-9 {
+    width: 11.11111%;
+}
+.col-fl-10 {
+    width: 10%;
+}
+.col-fl-1, 
+.col-fl-2, 
+.col-fl-3, 
+.col-fl-4, 
+.col-fl-5, 
+.col-fl-6, 
+.col-fl-7, 
+.col-fl-8, 
+.col-fl-9, 
+.col-fl-10
+{
+    float: left;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.col-fl-1 img, 
+.col-fl-2 img, 
+.col-fl-3 img, 
+.col-fl-4 img, 
+.col-fl-5 img, 
+.col-fl-6 img, 
+.col-fl-7 img,
+.col-fl-8 img,
+.col-fl-9 img,
+.col-fl-10 img 
+{
+    margin: 0 auto;
+}
+

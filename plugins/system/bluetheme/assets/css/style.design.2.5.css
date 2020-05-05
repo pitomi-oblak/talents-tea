@@ -1,0 +1,45 @@
+.st-desi .st-edit [class^="icon-"],
+.st-desi .st-close [class^="icon-"],
+.st-desi .st-hide [class^="icon-"],
+.st-desi .st-duplicate [class^="icon-"]{
+	line-height: 25px;
+}
+#st-navigation .st-close{
+	margin-top: 10px;
+}
+#toolbar .st-namepage{
+	position: relative;
+}
+#toolbar .control-group{
+	position: absolute;
+	top: -40px;
+	left: -900px;
+}
+#toolbar .control-group .controls{
+	margin-left: 180px!important;
+}
+
+.pagetitle{
+	display: block!important;
+}
+
+.icon-cog-2{
+	line-height: 24px!important;
+}
+.over-message .message{
+	border:0;
+	color: #fff;
+}
+#toolbar-box .icon-48-generic{
+	background-image: url(../images/icon-48-generic.png)!important;
+}
+#toolbar-box .icon-32-apply{
+	background-image: url(../images/icon-32-apply.png)!important;
+}
+#toolbar-box .icon-32-cancel{
+	background-image: url(../images/icon-32-cancel.png)!important;
+}
+#toolbar-box .icon-32-save{
+	background-image: url(../images/icon-32-save.png)!important;
+}
+

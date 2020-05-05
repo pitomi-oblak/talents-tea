@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset addfieldpath="/administrator/components/com_blue_pagebuilder/models/fields">
+		<field name="name"
+			type="text"
+			label="COM_FILESHARING_FILENAME"
+			description=""
+			class="inputbox"
+			required="true"
+			size="10"
+		/>
+		<field name="catid"
+			type="categories"
+			label="COM_FILESHARING_CATEGORY_NAME"
+			description=""
+			required="true"
+		/>
+		<field name="type"
+			type="filetypelist"
+			label="COM_FILESHARING_TYPE_NAME"
+			required="true"
+			description=""
+			default="1"
+		/>
+		<field name="file"
+			type="file"
+			label="COM_FILESHARING_FILE_UPLOAD"
+			required="true"
+			description=""
+		/>
+		<field name="type"
+			type="filetypelist"
+			label="COM_FILESHARING_TYPE_NAME"
+			description=""
+			default="1"
+		/>
+	</fieldset>
+</form>

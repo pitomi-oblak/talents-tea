@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset addfieldpath="/administrator/components/com_categories/models/fields">
+		<field name="editor"
+			type="editor"
+			size="10"
+			buttons="article,pagebreak,readmore"
+			readonly="true"
+			class="readonly"
+		/>
+		<field name="modules" 
+			type="sql"
+			label="Select an article" 
+			query="SELECT id, CONCAT(title,'-',id) AS name FROM #__modules where published=1 and access=1 and client_id=0" 
+			key_field="id" 
+			value_field="name" />
+		<field name="contents"
+			type="sql"
+			label="Select an article" 
+			query="SELECT id, title FROM #__content where state=1" 
+			key_field="id" 
+			value_field="title" />
+		<field name="k2contents"
+			type="sql"
+			label="Select an article" 
+			query="SELECT id, title FROM #__k2_items where published=1" 
+			key_field="id" 
+			value_field="title" />
+		<field name="category"
+			type="category"
+			extension="com_content" 
+			/>
+		<field name="k2category"
+			type="categories"
+			addfieldpath="/administrator/components/com_k2/elements"
+			/>
+	</fieldset>
+</form>

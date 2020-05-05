@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>Doors</name>
+	<version>1.5</version>
+	<creationDate>10/DE/2014</creationDate>
+	<author>Vanlam</author>
+	<authorEmail>contact.bluetheme@gmail.com</authorEmail>
+	<copyright>Copyright (C) 2005 - 2013 Open Source Matters, Inc. All rights reserved.</copyright>
+	<description>TPL_DOORS_XML_DESCRIPTION</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>fonts</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+	</files>
+	<positions>
+		<position>banner</position>
+		<position>debug</position>
+		<position>menu</position>
+		<position>feature</position>
+		<position>copyright</position>
+		<position>top</position>
+		<position>right</position>
+		<position>left</position>
+		<position>footer</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_doors.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_doors.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				
+                <field name="templateColor" class="" type="color" default="#d9232d"
+					label="Group color1"
+					description="" />
+                    <field name="templateColor2" class="" type="color" default="#bd1e26"
+					label="Group color2"
+					description="" />
+				<field name="logoFile" class="" type="media" default=""
+					label="TPL_DOORS_LOGO_LABEL"
+					description="TPL_DOORS_LOGO_DESC" />
+                <field name="bt_logo_title" class="" type="text" default=""
+					label="Title"
+					description="" />
+				<field name="favicon" type="media" label="Favicon"
+                    description="" directory=""/>	
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>

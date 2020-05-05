@@ -1,0 +1,26 @@
+ul.nav-tabs-vertical {
+	border-right: 1px solid #ddd;
+}
+ul.nav-tabs-vertical >li.active > a,
+ul.nav-tabs-vertical >li.active > a:hover,
+ul.nav-tabs-vertical >li.active > a:focus
+ {
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-right-color: transparent;
+	cursor: default;
+	margin-right:-1px;
+}
+ul.nav-tabs-vertical >li > a {
+	margin-right: 2px;
+	line-height: 1.42857143;
+	border: 1px solid transparent;
+	border-radius: 4px 0 0 4px;
+}
+.tab-content-vertical .tab-pane {
+	padding:0 15px;
+}
+.margintb30{
+	margin:30px 0px;
+}

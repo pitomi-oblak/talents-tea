@@ -1,0 +1,851 @@
+.brand_wrapper { position: relative; }
+
+hr {
+    border-top: 0 solid #eee;
+    }
+
+.campaign-section .section-title h3,
+.talents-section .section-title h3,
+.recommendation-section .section-title h3,
+.clients .section-title h3,
+.contact-section .section-title h3,
+.progress-section .section-title h3 {
+    color: #000;
+    }
+
+#navigation .navbar-right li a,
+#navigation .navbar-fixed-top .navbar-right li a,
+.talents-section .talents-introduction .read-btn,
+#contact-form .send-btn.btn.btn-default,
+.contact-section .contact-data address,
+.talents-page .contact-wrapper,
+#footer {
+    text-shadow: 1px 1px #000;
+    }
+
+#talent-blog-page #navigation .navbar-fixed-top .navbar-right li a:hover,
+#talent-blog-page #navigation .navbar-right li a:hover {
+    background-color: #f8a055;
+    }
+
+#talent-blog-page .main-nav {
+    border-bottom: 0 solid #dfdfdf;
+    opacity: 1;
+    }
+
+.navbar-collapse {
+    padding-right: 0;
+    }
+
+#navigation .navbar-fixed-top {
+    border-bottom: 0 solid #dfdfdf;
+    }
+
+#navigation .navbar-fixed-top .navbar-right li a:hover,
+#navigation .navbar-right li a:hover {
+    opacity: 1;
+    background-color: #f8a055 !important;
+    }
+
+/*LOGO*/
+
+#navigation .navbar .navbar-header a.navbar-brand {
+    opacity: 1;
+    position: relative;
+    }
+
+#navigation .navbar .navbar-header .navbar-brand img {
+    display: inline-block;
+    background-color: transparent;
+    width: 120px;
+    height: auto;
+    }
+
+#navigation .navbar .navbar-header .navbar-brand h1 {
+    margin: 0 0;
+    }
+
+#navigation .navbar .navbar-header a.navbar-brand {
+    background-color: transparent;
+    height: auto;
+    left: 70px;
+    }
+
+.navbar-nav {
+    padding-top: 4px;
+    padding-bottom: 5px;
+    }
+
+/*END LOGO*/
+
+/*BANNER*/
+
+/*#banner-right {*/
+/*position: absolute;*/
+/*opacity: 0.85;*/
+/*left: 20%;*/
+/*bottom: 78px;*/
+/*margin: auto;*/
+/*width: 350px;*/
+/*height: auto;*/
+/*z-index: 100;*/
+/*background-color: #fff;*/
+/*}*/
+
+/*#banner-left {*/
+/*position: absolute;*/
+/*opacity: 0.85;*/
+/*right: 20%;*/
+/*bottom: 83px;*/
+/*margin: auto;*/
+/*width: 370px;*/
+/*height: auto;*/
+/*z-index: 100;*/
+/*}*/
+
+.st-module.banners-module {
+    position: relative;
+    }
+
+.st-module.banners-module .bannergroup {
+    position: absolute;
+    top: -200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    }
+
+.st-module.banners-module .bannergroup img {
+    max-width: 100%;
+    }
+
+.banners-module .banneritem {
+    opacity: 0.85;
+    text-align: center;
+    z-index: 100;
+    }
+
+/*END BANNERS*/
+
+/*HEADER TRANSPARENCY*/
+
+.tp-bgimg.defaultimg::before {
+    display: block;
+    width: 100%;
+    height: 25%;
+    content: " ";
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    }
+
+/*END HEADER TRANSPARENCY*/
+
+/*O KAMPANJI*/
+
+.campaign-section {
+    margin-bottom: 70px;
+    }
+
+.campaign-section .campaign-intro {
+    column-count: 2;
+    padding-top: 25px;
+    }
+
+.campaign-section .campaign-desc {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    }
+
+.campaign-section .campaign-desc .campaign-wrapper {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 45px 15px 45px 15px;
+    }
+
+.campaign-section .campaign-desc .campaign-wrapper .campaign-icon {
+    flex: 1;
+    font-size: 50px;
+    color: #f8a055;
+    }
+
+.campaign-section .campaign-desc .campaign-wrapper .campaign-text {
+    flex: 1;
+    font-size: 15px;
+    }
+
+/*END O KAMPANJI*/
+
+/*TALENTS INTRODUCTION*/
+
+#Mod113 {
+    overflow: hidden;
+    }
+
+.talents-section {
+    background-color: #EAF098;
+    margin-bottom: 70px;
+    }
+
+.talents-section .talents-introduction {
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    }
+
+.talents-section .talents-introduction .section-title {
+    text-align: left;
+    font-size: 30px;
+    }
+
+.talents-section .title-border {
+    float: left;
+    background-color: #f8a055;
+    }
+
+.talents-section .talents-introduction .intro-img {
+    width: 100%;
+    float: none;
+    flex: 1;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    }
+
+.talents-section .talents-introduction .intro-img::before {
+    z-index: 2;
+    transform: skewX(190deg);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -60px;
+    display: block;
+    height: 100%;
+    width: 100px;
+    background-color: #EAF098;
+    }
+
+.talents-section .talents-introduction .intro-img::after {
+    z-index: 2;
+    transform: skewX(170deg);
+    content: "";
+    position: absolute;
+    right: -60px;
+    bottom: 0;
+    display: block;
+    height: 100%;
+    width: 100px;
+    background-color: #EAF098;
+    }
+
+.talents-section .talents-introduction .intro-img img {
+    object-fit: cover;
+    object-position: center;
+    }
+
+.talents-section .talents-introduction .col-md-6 {
+    z-index: 1;
+    display: flex;
+    flex: 1;
+    }
+
+.talents-section .talents-introduction .wrapper {
+    width: 100%;
+    float: none;
+    flex: 1;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    }
+
+.talents-section .talents-introduction .section-title {
+    padding-bottom: 0;
+    }
+
+.talents-section .talents-introduction .short-intro, .talents-page .short-intro {
+    font-style: italic;
+    position: relative;
+    font-size: 14px;
+    }
+
+.talents-section .talents-introduction .short-intro {
+    text-align: left;
+    color: #897f7f;
+    }
+
+.talents-section .talents-introduction .desc {
+    width: 100%;
+    height: auto;
+    position: relative;
+    color: #897f7f;
+    }
+
+.talents-section .talents-introduction .read-btn {
+    padding-top: 15px;
+    }
+
+.talents-section .talents-introduction .read-btn a {
+    background-color: #f8a055;
+    padding: 13px 22px;
+    float: left;
+    margin-bottom: 15px;
+    color: #fff;
+    }
+
+.talents-section .talents-introduction .read-btn a:hover {
+    opacity: 0.8;
+    }
+
+/*END TALENTS INTRODUCTION*/
+
+/*TALENTS BLOG PAGE*/
+
+#blog-details .blog-item {
+    margin-right: 0;
+    margin-left: 0;
+    }
+
+.talents-page .section-title h3 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 0;
+    color: #000;
+    }
+
+.talents-page .section-title .short-intro {
+    padding-top: 20px;
+    text-align: center;
+    }
+
+.talents-page .gallery-item .grid-gallery .grid-photo {
+    padding-right: 0;
+    padding-left: 0;
+    }
+
+.talents-page .gallery-item .grid-gallery .grid-photo a {
+    transition: 300ms;
+    display: block;
+    position: relative;
+    height: 300px;
+    }
+
+.talents-page .gallery-item .grid-gallery .grid-photo .overlay-grid {
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    transition: all 0.4s ease-out 0s;
+    display: none;
+    }
+
+.talents-page .gallery-item .grid-gallery .grid-photo .overlay-grid i {
+    font-size: 50px;
+    color: #ffdb5c;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    position: absolute;
+    }
+
+.talents-page .gallery-item .grid-gallery .grid-photo a:hover .overlay-grid {
+    display: block;
+    }
+
+.talents-page .about .introduction {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    column-count: 2;
+    }
+
+.talents-page .contact-bg .section-title h3 {
+    color: #fff;
+    }
+
+.talents-page .contact .contact-wrapper {
+    color: #fff;
+    }
+
+.talents-page .contact .contact-wrapper .text {
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 20px;
+    }
+
+.talents-page .contact .contact-wrapper i {
+    padding-right: 5px;
+    }
+
+.parallax {
+    padding-bottom: 60px;
+    background-image: url(../images/contact-bg.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    }
+
+.talents-page .contact-bg .align-wrap a {
+    color: #fa6e59;
+    }
+
+/*END TALENTS BLOG PAGE*/
+
+/*PREPORUKE*/
+
+.recommendation-section {
+    margin-bottom: 70px;
+    }
+
+.recommendation-section .recommendation-module {
+    font-size: 13px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    }
+
+.recommendation-section .recommendation-module .recommendation-wrapper {
+    text-align: center;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    }
+
+.recommendation-section .recommendation-module .recommendation-wrapper .text::before {
+    position: absolute;
+    display: block;
+    top: 5px;
+    left: 25px;
+    font-size: 28px;
+    color: #fff;
+    content: "\f10d";
+    font-family: FontAwesome;
+    }
+
+.recommendation-section .recommendation-module .recommendation-wrapper .text {
+    background-color: #f3f3f3;
+    padding: 13px 30px;
+    flex: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border-radius: 15px;
+    }
+
+.recommendation-section .recommendation-module .recommendation-wrapper .text p {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    left: 0;
+    }
+
+.recommendation-section .recommendation-module .recommendation-wrapper .text::after {
+    position: absolute;
+    display: block;
+    bottom: 75px;
+    color: #fff;
+    right: 25px;
+    font-size: 28px;
+    content: "\f10e";
+    font-family: FontAwesome;
+    }
+
+.recommendation-section .recommendation-module .recommendation-wrapper .recommended-by::before {
+    position: absolute;
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+    top: 0;
+    left: 30px;
+    background-color: #f3f3f3;
+    }
+
+.recommendation-section .recommendation-module .recommendation-wrapper .recommended-by {
+    position: relative;
+    padding-top: 30px;
+    text-align: left;
+    }
+
+/*END PREPORUKE*/
+
+/*SKILL DECOR*/
+
+.skill-bg {
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+    }
+
+.skill-flex {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    }
+
+.skill-circle-flex {
+    display: flex;
+    flex: 1;
+    }
+
+.skill-data {
+    transform: translateX(-50%) translatey(-50%);
+    top: 50%;
+    margin-left: 0;
+    line-height: 0;
+    }
+
+.progress-section .section-title h3 {
+    margin-top: 40px;
+    padding-bottom: 0px;
+    }
+
+/*END SKILL DECOR*/
+
+/*PARTNERI*/
+
+.clients {
+    border-bottom: 2px solid #f3f3f3;
+    border-top: 2px solid #f3f3f3;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    }
+
+.clients .carousel {
+    margin-bottom: 15px;
+    }
+
+#clients-carousel .item img {
+    opacity: 0.7;
+    }
+
+/*END PARTNERI*/
+
+/*KONTAKT*/
+
+.contact-section {
+    margin-bottom: 0;
+    }
+
+.contact-section .section-title {
+    text-align: center;
+    }
+
+.contact-section .contact-flex .contact-form .form-group {
+    margin-bottom: 0;
+    }
+
+.contact-section .contact-data {
+    background-color: #f8a055;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    }
+
+.contact-section .contact-data address {
+    position: relative;
+    margin-bottom: 0;
+    text-align: center;
+    }
+
+.contact-section .contact-data i {
+    color: #fff;
+    }
+
+.contact-section .contact-data p {
+    display: inline-block;
+    padding-left: 20px;
+    }
+
+#contact-form .send-btn.btn.btn-default {
+    background-color: #f8a055;
+    margin-right: 15px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    }
+
+#contact-form .send-btn.btn.btn-default:hover {
+    background-color: #f8a055;
+    opacity: 0.8;
+    }
+
+/*END KONTAKTI*/
+
+/*FOOTER*/
+
+#footer .created-by {
+    float: right;
+    }
+
+/*END FOOTER*/
+
+/*RESPONSIVE MOBILNI*/
+
+@media only screen and (max-width: 480px) {
+
+    #Mod105 .fullscreen-container {
+        height: 300px !important;
+        }
+
+    .st-module.banners-module .bannergroup {
+        top: -100px;
+        }
+
+    .talents-page .gallery-item .grid-gallery .grid-photo a {
+        height: 150px;
+        }
+
+    #navigation .navbar .navbar-header a.navbar-brand {
+        padding: 27px 0 0 0;
+        top: 5px;
+        left: 30px;
+        }
+
+    .skill-bg {
+        width: 75%;
+        }
+
+    .skill-flex {
+        display: block; }
+
+    }
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .st-module.banners-module .bannergroup {
+        top: -185px;
+        }
+
+    .skill-bg {
+        width: 50%;
+        }
+
+    .skill-flex {
+        display: block; }
+
+    #navigation .navbar .navbar-header a.navbar-brand {
+        padding: 29px 0 0 0;
+        top: 0;
+        left: 30px;
+        }
+
+    }
+
+@media only screen and (min-width: 767px) and (max-width: 768px) {
+    .skill-bg {
+        width: 100%;
+        }
+    }
+
+@media only screen and (max-width: 768px) {
+
+    .section-title h3 {
+        font-size: 25px;
+        }
+
+    .title-border {
+        width: 122px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        }
+
+    #navigation .navbar .navbar-header .navbar-brand img {
+        width: 90px;
+        }
+
+    #navigation .navbar-right {
+        margin-right: 0;
+        overflow: hidden;
+        }
+
+    #navigation .navbar-right li a,
+    #navigation .navbar-fixed-top .navbar-right li a {
+        line-height: 40px;
+        padding: 5px 13px;
+        }
+
+    .campaign-section {
+        margin-bottom: 40px;
+        }
+
+    .campaign-section .campaign-intro {
+        column-count: 1;
+        }
+
+    .campaign-section .campaign-desc {
+        display: block;
+        }
+
+    .campaign-section .campaign-desc .campaign-wrapper {
+        padding: 20px 20px 20px 20px;
+        }
+
+    .talents-section .talents-introduction .intro-img {
+        display: block;
+        padding-top: 10px;
+        }
+
+    .talents-section .title-border {
+        float: none;
+        margin-top: 10px;
+        }
+
+    .talents-section .talents-introduction .section-title h3 {
+        text-align: center;
+        font-size: 22px;
+        }
+
+    .talents-section .talents-introduction {
+        display: block;
+        }
+
+    .talents-section .talents-introduction .short-intro {
+        text-align: center;
+        }
+
+    .talents-section .talents-introduction .intro-img::before, .intro-img::after {
+        display: none;
+        }
+
+    .talents-section .talents-introduction .intro-img::after {
+        display: none;
+        }
+
+    .talents-section .talents-introduction .introtext {
+        column-count: 1;
+        text-align: center;
+        }
+
+    .talents-section .talents-introduction .read-btn a {
+        float: right;
+        }
+
+    #blog-details {
+        margin-top: 57px;
+        }
+
+    .blog-content {
+        padding-right: 0;
+        padding-left: 0;
+        }
+
+    .talents-page .about .introduction {
+        column-count: 1;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+
+    .parallax {
+        padding-bottom: 25px;
+        padding-top: 0;
+        }
+
+    .recommendation-section .recommendation-module {
+        display: block;
+        }
+
+    .recommendation-section .section-title {
+        padding-bottom: 20px;
+        }
+
+    .recommendation-section .recommendation-module .recommendation-wrapper .text p {
+        top: 0;
+        transform: translateY(0);
+        }
+
+    .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        width: 100%;
+        }
+
+    #contact-form .name-field {
+        padding-right: 15px;
+        }
+
+    #contact-form .email-field {
+        padding-left: 15px;
+        }
+
+    #contact-form .send-btn.btn.btn-default {
+        margin-bottom: 0;
+        float: none;
+        }
+
+    .contact-section {
+        padding-bottom: 0;
+        }
+
+    .contact-section .contact-form .form-group {
+        margin-bottom: 20px;
+        }
+
+    .form-group.btn-align {
+        text-align: center;
+        }
+
+    #footer .created-by {
+        float: none;
+        }
+
+    }
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+    .section-title h3 {
+        font-size: 30px;
+        }
+
+    .talents-section .talents-introduction .read-btn a {
+        float: right;
+        }
+
+    #navigation .navbar-right li a,
+    #navigation .navbar-fixed-top .navbar-right li a {
+        padding: 5px 15px;
+        }
+
+    #navigation .navbar .navbar-header .navbar-brand img {
+        width: 90px;
+        }
+
+    #navigation .navbar .navbar-header a.navbar-brand {
+        left: 30px;
+        top: 5px;
+        }
+
+    .talents-section .talents-introduction {
+        display: block;
+        }
+
+    .talents-section .talents-introduction .intro-img .img-responsive {
+        width: 100%;
+        }
+    }
+
+
+

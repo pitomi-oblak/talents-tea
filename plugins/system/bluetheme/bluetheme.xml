@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system">
+	
+	<name>Plugin CMS BlueTheme</name>
+	<author>cmsbluetheme.Com</author>
+	<creationDate>Aug 2013</creationDate>
+	<copyright>Copyright (C) 2013 http://www.cmsbluetheme.Com. All rights reserved.</copyright>
+	<license>http://www.cmsbluetheme.com GNU/GPL</license>
+	<authorEmail>contact.bluetheme@gmail.com</authorEmail>
+	<authorUrl>www.cmsbluetheme.com</authorUrl>
+	<version>3.0.0</version>
+	<description>Shinetheme Plugin</description>
+	
+	<files>
+		<filename plugin="bluetheme">bluetheme.php</filename>
+		<filename>bluetheme.xml</filename>
+		<filename>index.html</filename>
+		<folder>fields</folder>
+		<folder>assets</folder>
+		<folder>tmpl</folder>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="st-font" 
+					type="list"
+					label="Google Font"
+					default="Roboto Slab" 
+				>
+					<option value="Roboto Slab">Roboto Slab</option>
+					<option value="Miniver">Miniver</option>
+					<option value="Mako">Mako</option>
+					<option value="Droid Sans'">Droid Sans'</option>
+					<option value="Lato">Lato</option>
+					<option value="PT Sans">PT Sans</option>
+					<option value="Ubuntu">Ubuntu</option>
+					<option value="Lobster">Lobster</option>
+					<option value="Droid Serif">Droid Serif</option>
+					<option value="Allan">Allan</option>
+					<option value="Cardo">Cardo</option>
+					<option value="Chivo">Chivo</option>
+					<option value="Courgette">Courgette</option>
+					<option value="Dancing Script">Dancing Script</option>
+					<option value="Lobster Two">Lobster Two</option>
+					<option value="Merienda">Merienda</option>
+					<option value="Oxygen">Oxygen</option>
+					<option value="Vollkorn">Vollkorn</option>
+				</field>
+			</fieldset>
+			<fieldset name="lightbox" label="Light Box">
+				<field name="lightbox-effect"
+					type="list"
+					label="Effect"
+					default="elastic"
+				>
+					<option value="elastic">elastic</option>
+					<option value="fade">fade</option>
+					<option value="none">none</option>
+				</field>
+				
+				<field name="lightbox-speed"
+					type="text"
+					label="Speed"
+					default="250"
+				/>
+				<field name="titleposition"
+					type="list"
+					label="Title Position"
+					default="outside"
+					>
+					<option value="inside">inside</option>
+					<option value="outside">outside</option>
+				</field>
+			</fieldset>
+			<fieldset name="slider" label="Slider">
+				<field name="slider-easing"
+					type="list"
+					label="Easing"
+					default="linear">
+					<option value="linear">linear</option>
+					<option value="swing">swing</option>
+					<option value="easeInQuad">easeInQuad</option>
+					<option value="easeInCubic">easeInCubic</option>
+					<option value="easeInOutCubic">easeInOutCubic</option>
+					<option value="easeOutQuint">easeOutQuint</option>
+					<option value="easeInOutExpo">easeInOutExpo</option>
+					<option value="easeInOutBack">easeInOutBack</option>
+					<option value="easeInBounce">easeInBounce</option>
+					<option value="easeOutBounce">easeOutBounce</option>
+					<option value="easeInOutBounce">easeInOutBounce</option>
+					<option value="easeOutElastic">easeOutElastic</option>
+				</field>
+				<field name="slider-duration"
+					type="text"
+					label="Duration"
+					default="600"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>

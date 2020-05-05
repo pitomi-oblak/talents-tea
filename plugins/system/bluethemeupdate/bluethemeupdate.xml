@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+	<name>BT Update</name>
+	<creationDate>Aug 2013</creationDate>
+	<author>Pham Tien Duc</author>
+	<copyright>Copyright (C), CMSBlueTheme  All Rights Reserved.</copyright>
+	<license>GNU/GPL V3</license>
+	<authorEmail>contact.bluetheme@gmail.com</authorEmail>
+	<authorUrl>www.CMSBlueTheme.com</authorUrl>	
+	<version>3.0.0</version>
+	<description>
+	</description>
+	<scriptfile>installfile.php</scriptfile>
+	<files>
+		<filename plugin="bluethemeupdate">bluethemeupdate.php</filename>
+		<filename plugin="bluethemeupdate">index.html</filename>
+	</files>
+	<updateservers>
+	   <server type="collection">http://update.joomlart.com/service/tracking/list.xml</server>
+	</updateservers>
+</extension>

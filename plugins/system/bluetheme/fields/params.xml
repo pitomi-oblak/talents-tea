@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params" addfieldpath="/plugins/system/bluetheme/fields">
+	<fieldset name="stmegamenu" label="BT Options">
+        <field name="bt_style" type="list" label="Style" description="">
+			<option value="" >Light</option>
+            <option value="dark" >Dark</option>
+		</field>
+        <field name="bt_animate" type="list" label="Animate" description="">
+			<option value="1" >Yes</option>
+            <option value="0" >No</option>
+		</field>
+        <field name="bt_layout" type="list" label="Layout" description="">
+			<option value="container" >Boxed</option>
+            <option value="fullscreen" >Full</option>
+		</field>
+        <field name="bt_slidebar" type="list" label="Slidebar Position" description="">
+			<option value="" >Left</option>
+            <option value="right-menu-sidebar" >Right</option>
+		</field>
+        <field name="bt_bg" type="media" label="Background image" description="">
+			
+		</field>
+        <field name="bt_bg_color" type="color" label="Background color" description="">
+			
+		</field>
+        <field name="templateColor" class="" type="color" default="#8ab928"
+					label="Template color"
+					description="" />
+        <field name="bt_menu_icon" class="" type="text" default=""
+					label="Menu icon"
+					description="" />
+	</fieldset>
+	</fields>
+</form>

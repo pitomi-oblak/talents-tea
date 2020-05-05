@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_BLUE_PAGEBUILDER_PAGE">
+
+	</layout>
+	<fields name="params" addfieldpath="/administrator/components/com_blue_pagebuilder/models/fields">
+		<fieldset name="basic">
+			<field name="designid" 
+				type="sql"
+				label="ID" 
+				query="SELECT id, name FROM #__blue_pagebuilder" 
+				key_field="id" 
+				value_field="name" />
+            
+
+		</fieldset>
+	</fields>
+</metadata>
